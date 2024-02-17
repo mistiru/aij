@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link href="../css/common.css" rel="stylesheet">
+
+    <link href="../vendor/fontawesome/css/all.min.css" rel="stylesheet">
+
+    <title>Atelier Initiation au Japonais - Cours n°5</title>
+    <link rel="icon" type="image/png" href="../img/arbre.png"/>
+</head>
+<body>
+
+<div class="container-xl py-2 aij-layout">
+    <div class="text-center aij-intro">
+        <h1 class="mb-3">Cours n˚5 − 第五課</h1>
+    </div>
+
+    <div class="aij-toc" style="margin-top: -0.5rem;">
+        <div class="toc-col sticky-top pt-xl-2">
+            <p class="mb-2 text-xl-start text-center">
+                <a href="..">&lt; Retour à l’index</a>
+            </p>
+
+            <p class="toc-title"><strong>Table des matières</strong></p>
+            <p class="mb-0">
+                <a class="scroll-top" href="javascript:void(0)">
+                    Haut de page
+                </a>
+            </p>
+            <ul id="table-of-content"></ul>
+
+            <hr/>
+
+            <div class="form-check form-switch">
+                <input id="furiganas-switch" class="form-check-input" type="checkbox" role="switch">
+                <label class="form-check-label" for="furiganas-switch">Furiganas</label>
+            </div>
+
+            <p class="small text-muted">
+                Passez votre souris sur les Kanjis pour afficher les Furiganas.
+            </p>
+        </div>
+    </div>
+
+    <div class="aij-content">
+        <!--
+        <h2 id="texte-cible" class="border-bottom">Texte cible</h2>
+
+        <div class="target-text japanese easy">
+            <h5 class="mb-3">
+            </h5>
+            <p>
+            </p>
+        </div>
+        -->
+
+        <h2 id="intro-kanjis" class="border-bottom">Introduction aux Kanjis</h2>
+
+        <h3 id="origine" class="border-bottom">Origine</h3>
+
+        <p>
+            Les <span class="notion">Kanjis「漢字」</span>, littéralement “caractères chinois”, comme leur nom l’indique,
+            proviennent du chinois. Leur toute première apparition dans la langue japonaise remonte au premier siècle,
+            mais c’est seulement à partir du cinquième siècle que ceux-ci sont réellement ancrés dans la langue. Ils
+            sont à ce moment le tout premier système d’écriture “grande échelle” jamais utilisé au Japon, qui
+            disposait néanmoins déjà de sa propre langue.
+        </p>
+
+        <p>
+            À cette époque, il n’y a pas vraiment de règle sur l’association entre Kanji et prononciation. Certes les
+            Kanjis possédaient des prononciations bien définies en chinois, mais ils étaient bien trop nombreux à avoir
+            la même prononciation. Un son japonais pouvait alors s’écrire, suivant l’auteur ou la région, de plein de
+            manières différentes (quasiment jusqu’à la dizaine).
+        </p>
+
+        <p>
+            Au huitième siècle, des sinogrammes appelés <span class="notion">Man’youganas</span> apparaissent pour
+            simplifier l’écriture phonétique. Ils sont formés à partir d’un ensemble de Kanjis ayant été simplifiés pour
+            en faciliter l’écriture. Ils sont très rapidement simplifiés à nouveau pour donner naissance, au début du
+            neuvième siècle, aux <span class="notion">Hiraganas</span> actuels. Cette simplification est surtout utilisée
+            par les femmes qui n’avaient, à cette époque, pas accès au même niveau d’éducation que les hommes.
+        </p>
+
+        <p>
+            Les hommes quant à eux, et notamment les moines bouddhistes, ont préféré continuer à utiliser des Kanjis,
+            car plus élitiste. Dans le même souci de simplification cependant, ils ont alors tronqué des parties des
+            Kanjis de l’ensemble ayant donné naissance aux Man’youganas, formant ainsi les
+            <span class="notion">Katakanas</span>.
+        </p>
+
+        <p>
+            Les <span class="notion">Kanjis</span>, malgré les évolutions de la langue, ont toujours été utilisés et ont
+            continués à être importés de la Chine tout au long de l’histoire. Ils servent notamment, comme indiqué au
+            <a href="lesson_01.html#intro-systèmes-écriture" target="_blank">cours n°1</a>, à porter le sens des mots,
+            à représenter les radicaux des verbes, etc…
+        </p>
+
+        <p class="note">
+            Le chinois traditionnel comptait au début du vingtième siècle plus de 47 000 caractères, bien que moins
+            d’un tiers seulement étaient considérés comme courants, ce qui fait tout de même plus de 10 000
+            caractères courants.
+            <br/>
+            Le japonais, quant à lui, recense (seulement) un peu plus de 10 000 Kanjis, dont seulement
+            <span class="notion">un peu plus de 2 000</span> sont considérés comme courants et enseignés à l’école.
+            Le travail est donc nettement moins compliqué en japonais.
+        </p>
+
+        <h3 id="composition" class="border-bottom">Composition</h3>
+
+        <p>
+            Contrairement à l’idée reçue, seulement à peine plus de 4% des <span class="notion">Kanjis</span> sont
+            d’origine pictographique. C’est le cas par exemple du <span class="notion">Kanji</span> signifiant
+            “montagne” et s’écrivant <span class="noun">山</span>.
+        </p>
+
+        <p>
+            Tous les autres <span class="notion">Kanjis</span> sont formés <span class="notion">par composition</span>
+            de caractères appelés <span class="notion">clés</span>. À l’origine, on recensait 540
+            <span class="notion">clés de Kanjis</span>, mais les différentes simplifications lors de l’évolution de
+            l’écriture ont ramené ce nombre à (seulement) <span class="notion">214</span> aujourd’hui. Ces
+            <span class="notion">clés</span> sont notamment utilisées dans les dictionnaires pour classer les mots.
+        </p>
+
+        <p class="mb-1">
+            Il existe plusieurs manières de former des <span class="notion">Kanjis</span> :
+        </p>
+
+        <ul>
+            <li>
+                <p>
+                    <strong>Par décomposition pictographique</strong> : L’évolution des
+                    <span class="notion">Kanjis</span> à travers les siècles a mené à de nombreuses simplifications.
+                    C’est le cas de plusieurs <span class="notion">Kanjis</span>, notamment liés au règne animal, qui
+                    ont vu leur écriture pictographique décomposée pour être recomposée à l’aide de caractères connus.
+                    C’est le cas par exemple des <span class="notion">Kanjis</span> pour “poisson” ou encore
+                    “tortue” dont on peut voir une évolution du dernier sur les images ci-dessous.
+                </p>
+                <div class="ecol-12 text-center">
+                    <img class="mw-100" src="../img/turtle.png" alt="turtle"/>
+                </div>
+                <div class="ecol-12 text-center">
+                    <em>Évolution du Kanji pour “tortue” entre -1200, -200 et de nos jours.</em>
+                </div>
+                <p class="mt-3">
+                    Ces évolutions et simplifications ont été telles que le sens lié à la
+                    <span class="notion">clé d’un Kanji</span> n’est plus toujours respecté. C’est le cas notamment de
+                    beaucoup de <span class="notion">Kanjis</span> liés à des parties du corps, où la
+                    <span class="notion">clé</span> est passée par simplification de
+                    <span class="noun">viande 肉</span> à <span class="noun">lune 月</span>, comme dans
+                    <span class="noun">la poitrine 胸</span>, <span class="noun">le bras 腕</span>,
+                    <span class="noun">le coude 肘</span>, etc.
+                </p>
+            </li>
+            <li>
+                <strong>Par composition de sens</strong>, où on va par exemple indiquer d’un trait une partie précise
+                d’un <span class="notion">Kanji</span>. C’est le cas par exemple pour <span class="noun">本</span> et
+                <span class="noun">末</span>, signifiant respectivement “origine, racine” et “fin”, qui sont dérivés de
+                <span class="noun">木</span> signifiant “arbre”, où un trait indique respectivement la racine et la cime.
+                <br/>
+                On peut également associer plusieurs <span class="notion">clés</span> de
+                <span class="notion">Kanjis</span> différents ensemble, comme dans <span class="adj">好</span>
+                signifiant “affectueux, aimé”, où la partie de gauche <span class="noun">女</span> représente une femme
+                et la partie de droite <span class="noun">子</span> un enfant.
+                <br/>
+                Pour finir, on peut aussi répéter plusieurs fois un même <span class="notion">Kanji</span> pour exprimer
+                l’importance, l’exagération, etc. C’est par exemple le cas de <span class="noun">木</span>,
+                <span class="noun">林</span> et <span class="noun">森</span> qui signifient respectivement “arbre”,
+                “bois, petite forêt” et “forêt dense”.
+            </li>
+            <li>
+                <strong>Par composition idéo-phonographique</strong> : Le but est d’associer une
+                <span class="notion">clé</span> indiquant le sens auquel le <span class="notion">Kanji</span> est
+                rattaché, à un autre caractère utilisé uniquement pour sa prononciation. Cette catégorie de
+                <span class="notion">Kanjis</span> représente environ 90% des <span class="notion">Kanjis</span>.
+                <br/>
+                Bien que, a priori, cela puisse paraître absurde d’associer un <span class="notion">Kanji</span> à un
+                autre purement à cause de sa phonologie et non de sa sémantique, cela se révèle en pratique très utile
+                pour comprendre des mots dont on ignore l’écriture exacte en <span class="notion">Kanji</span> lors de
+                la lecture.
+                <br/>
+                Cette pratique, appelée <span class="notion">Ateji</span>, est très largement utilisée pour les noms
+                propres (de montagne, de fleuve, de lac, etc…). C’est par exemple le cas du
+                <span class="person">mont Fuji</span>, en japonais <span class="person">富士山【ふじさん】</span>, où les
+                deux premiers caractères ne sont utilisés que pour leur prononciation (ふ et じ), dernier (さん)
+                signifiant simplement montagne.
+            </li>
+        </ul>
+
+        <h3 id="prononciations" class="border-bottom">Prononciations</h3>
+
+        <p>
+            Bien que les <span class="notion">Kanjis</span> ne portent généralement qu’un seul sens, la très grande
+            majorité d’entre eux peuvent être prononcés de plusieurs manières différentes (allant de 2 à plusieurs
+            dizaines). Ces lectures sont rangées en plusieurs catégories appelées <span class="notion">Kun’yomi</span>,
+            <span class="notion">On’yomi</span>, ou encore <span class="notion">Nanoriyomi</span>.
+        </p>
+
+        <p>
+            Une lecture <span class="notion">Kun’yomi</span> est, comme son nom l’indique en japonais, une lecture
+            sémantique d’un <span class="notion">Kanji</span>, mais dont la prononciation est historiquement japonaise.
+            Dans le cas d’une telle lecture, le <span class="notion">Kanji</span>, initialement importé du chinois,
+            conserve le sens du sinogramme dont il est issu, mais voit sa prononciation substituée par une prononciation
+            japonaise. On parle souvent de <span class="notion">lecture japonaise</span>.
+            <br/>
+            Dans les dictionnaires, ces lectures sont écrites en utilisant les <span class="notion">Hiraganas</span>.
+        </p>
+
+        <p>
+            À l’inverse, une lecture <span class="notion">On’yomi</span>, est une lecture phonétique d’un
+            <span class="notion">Kanji</span> issue de la phonétique de formes anciennes du chinois. La prononciation a
+            bien évidemment été adaptée pour coller aux phonèmes de la langue japonaise, mais n'y puise en aucun cas ses
+            racines.
+            <br/>
+            Dans les dictionnaires, ces lectures sont écrites en utilisant les <span class="notion">Katakanas</span>.
+        </p>
+
+        <p>
+            Enfin, les lectures <span class="notion">Nanoriyomi</span> sont des lectures d’origine japonaises, non
+            traditionnelles, servant à la formation de noms propres (personnes, villes, lacs, etc…). Ce sont souvent
+            ces lectures qui sont utilisées lors de la pratique de l’<span class="notion">Ateji</span>.
+        </p>
+
+        <p>
+            Dans la majorité des cas, les lectures <span class="notion">Kun’yomi</span> sont utilisées lorsque le
+            <span class="notion">Kanji</span> est présent seul, ou bien utilisé en tant que radical, accompagné
+            d’<span class="notion">Okuriganas</span>, les hiraganas formant la terminaison.
+            <br/>
+            À l’inverse, les lectures <span class="notion">On’yomi</span> sont généralement utilisées lorsque le
+            <span class="notion">Kanji</span> fait partie d’un mot composé de plusieurs
+            <span class="notion">Kanjis</span>, bien qu’il existe des mots formés d’un seul
+            <span class="notion">Kanji</span> et où la lecture utilisée est une <span class="notion">On’yomi</span>.
+        </p>
+
+        <p class="note">
+            Il arrive quelques fois que certains mots composés de plusieurs <span class="notion">Kanjis</span> soient
+            prononcés en n’utilisant ni les lectures <span class="notion">Kun’yomi</span> ni
+            <span class="notion">On’yomi</span> des <span class="notion">Kanjis</span> qui les composent. Ces mots ont
+            alors une prononciation qui n’est pas déductible de chaque <span class="notion">Kanji</span>. On parle de
+            <span class="notion">Jukujikun</span>, signifiant littéralement “lecture de caractères combinés”.
+            Il s’agit d’une lecture <span class="notion">Kun’yomi</span>, d’origine japonaise donc, associée à une
+            combinaison figée de plusieurs <span class="notion">Kanjis</span>. C’est le cas par exemple des mots
+            <span class="noun">ajourd’hui 今日【きょう】</span> et <span class="noun">adulte 大人【おとな】</span>.
+        </p>
+
+        <h3 id="caractère-de-répétition" class="border-bottom">Caractère de répétition</h3>
+
+        <p>
+            Il existe une multitude de mots japonais formés d’une répétition d’un même
+            <span class="notion">Kanji</span>. C’est le cas par exemple des mots signifiant “gens”, “divers”, “parfois”,
+            “petit à petit”, ou encore “tour à tour”.
+        </p>
+
+        <p>
+            Pour ces mots, plutôt que de s’embêter à écrire deux fois le même <span class="notion">Kanji</span>, on
+            utilise un caractère spécial appelé <span class="notion">marque d’itération</span>, et noté
+            「<span class="notion">々</span>」. “Divers” par exemple s’écrit alors <span class="adj">色々【いろいろ】</span>.
+        </p>
+
+        <h3 id="règles-écriture" class="border-bottom">Règles d’écriture</h3>
+
+        <p class="mb-1">
+            En complément des <a href="lesson_01.html#ordre-traits" target="_blank">4 règles déjà énoncées</a>,
+            voici 6 autres règles, terminant ainsi la liste des 10 règles d’écriture des
+            <span class="notion">Kanjis</span> :
+        </p>
+
+        <ol start="5">
+            <li>
+                On trace <span class="notion">la partie extérieure</span> d’un caractère englobant avant
+                <span class="notion">la partie intérieure</span>, mais dans le cas où
+                <span class="notion">un trait ferme le Kanji en dessous</span>, c’est celui-ci que l’on trace en
+                dernier : par exemple <span class="notion">日</span>.
+            </li>
+            <li>
+                On trace le trait <span class="notion">incurvé vers la gauche</span> avant celui
+                <span class="notion">incurvé vers la droite</span> : par exemple <span class="notion">父</span>.
+            </li>
+            <li>
+                Quand un trait <span class="notion">incurvé vers la gauche</span> traverse un trait
+                <span class="notion">horizontal</span>, on trace <span class="notion">le plus court</span> en premier :
+                par exemple <span class="notion">右</span> (incurvé plus horizontal), et
+                <span class="notion">左</span> (horizontal puis incurvé).
+            </li>
+            <li>
+                Un trait qui <span class="notion">transperce un Kanji de part en part</span> doit être tracé en
+                dernier : par exemple <span class="notion">車</span>.
+                <br/>
+                Il y a une exception : <span class="notion">世</span>.
+                <br/>
+                Quand les extrémités du trait <span class="notion">ne dépassent pas</span> du Kanji, il doit être tracé
+                <span class="notion">entre la tête et le pied</span> du Kanji : par exemple
+                <span class="notion">重</span>.
+            </li>
+            <li>
+                La partie <span class="notion">nyou</span> (à gauche et en bas) d’un Kanji se trace
+                <span class="notion">toujours en dernier</span> : par exemple <span class="notion">週</span>.
+                <br/>
+                Il y a trois exceptions : <span class="notion">起</span>, <span class="notion">勉</span> et
+                <span class="notion">題</span>.
+            </li>
+            <li>
+                La partie <span class="notion">tare</span> (en haut et à gauche) d’un Kanji se trace
+                <span class="notion">toujours en premier</span> : par exemple <span class="notion">広</span>.
+                <br/>
+                Il n’y a pas d’exception.
+            </li>
+        </ol>
+
+        <h3 id="rendaku" class="border-bottom">Rendaku</h3>
+
+        <p>
+            Le <span class="notion">Rendaku</span>, aussi nommé par mes soins “un des trucs qui font quand même bien
+            chier les linguistes en Japonais”, est un <strong>phénomène imprévisible</strong> du Japonais qui consiste à
+            “adoucir” (on devrait dire “voiser”) la première consonne des morphèmes non initaux des mots (comprendre :
+            les parties qui ne sont pas la première).
+        </p>
+
+        <p>
+            C’est ce phénomène qui est à l’origine du fait que <span class="noun">手【て】(main)</span> +
+            <span class="noun">紙【かみ】(papier)</span>, qui donne <span class="noun">手紙 (lettre)</span>, se prononce
+            て<span class="notion">が</span>み et non pas て<span class="notion">か</span>み.
+        </p>
+
+        <p>
+            Comme dit plus haut, ce phénomène est imprévisible. Il n’existe aucune règle indiquant quand est-ce qu’il
+            doit se produire. Par exemple, les deux <span class="notion">Kanjis</span> <span class="noun">回</span> et
+            <span class="noun">階</span> se prononcent かい, mais lorsqu’ils sont utilisés en suffixe du
+            <span class="notion">Kanji</span> <span class="adj">三【さん】</span>, le résultat est alors
+            <span class="noun">三回【さんかい】</span> et <span class="noun">三階【さんがい】</span>.
+        </p>
+
+        <p class="note">
+            Il existe tout de même quelques règles qui indiquent quand est-ce qu'il <strong>n’est pas possible</strong>
+            d’appliquer le <span class="notion">Rendaku</span>, mais cela ne signifie pas qu'il s'applique
+            systématiquement quand celles-ci ne sont pas respectées.
+            <br/>
+            Par exemple, la <span class="notion">Loi de Lyman</span> indique que si le second élément contient une
+            obstruante voisée, où qu'elle se situe, alors le <span class="notion">Rendaku</span> ne s'applique pas. En
+            termes plus simples, si une partie de droite d’un mot contient déjà un son [g, z, d/j ou b], peu importe
+            l’endroit, alors “l’adoucissement” de la première consonne ne se fait pas.
+        </p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+<script src="../js/common.js"></script>
+<script src="../js/furiganas.js"></script>
+
+</body>
+</html>
