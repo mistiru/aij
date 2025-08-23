@@ -1,0 +1,12 @@
+html {
+    font-size: 1.3rem;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,8 @@
+ignoredBuiltDependencies:
+  - '@fortawesome/fontawesome-common-types'
+  - '@fortawesome/free-brands-svg-icons'
+  - '@fortawesome/free-regular-svg-icons'
+  - '@fortawesome/free-solid-svg-icons'
+  - sharp
+
+useNodeVersion: 22.17.1
