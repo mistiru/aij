@@ -144,7 +144,7 @@ export default function Index() {
             <td>
               <a href="pages/lesson_02.html">Cours</a>{' '}
               | <a href="pages/vocab_02.html" target="_blank">Vocab</a>{' '}
-              | <a href="pages/exercises_02.html">Exos</a>
+              | <a href="pages/exercises_02">Exos</a>
             </td>
             <td>
               phrases simples, particules は, の & も, présentation, suffixes honorifiques

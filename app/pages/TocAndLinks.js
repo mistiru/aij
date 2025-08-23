@@ -1,8 +1,9 @@
+import FuriganasSwitch from '@/app/pages/FuriganasSwitch';
 import GoBackToIndex from '@/app/pages/GoBackToIndex';
 import ScrollTopLink from '@/app/pages/ScrollTopLink';
 import TableOfContent from '@/app/pages/TableOfContent';
 
-export default function TocAndLinks({ children }) {
+export default function TocAndLinks({ furiganas, children }) {
   return (
     <div className="aij-toc" style={{ marginTop: '-0.5rem' }}>
       <div className="toc-col sticky-top pt-xl-2">
@@ -19,6 +20,16 @@ export default function TocAndLinks({ children }) {
         <TableOfContent />
 
         <hr/>
+
+        {furiganas && <>
+          <FuriganasSwitch />
+
+          <p className="small text-muted">
+            Passez votre souris sur les Kanjis pour afficher les Furiganas.
+          </p>
+
+          <hr/>
+        </>}
 
         <p>
           {children}
