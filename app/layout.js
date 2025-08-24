@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
 
 import { config } from '@fortawesome/fontawesome-svg-core';
-import BootstrapClient from './BootstrapClient';
+import BootstrapClient from './_components/BootstrapClient';
 
 config.autoAddCss = false;
 

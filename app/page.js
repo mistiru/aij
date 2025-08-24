@@ -1,7 +1,7 @@
 import './page.css';
 
 import Link from 'next/link';
-import ReloadButton from './ReloadButton';
+import ReloadButton from './_components/ReloadButton';
 
 export default function Index() {
   return <>
@@ -33,7 +33,7 @@ export default function Index() {
           <tr>
             <td className="text-end">14.</td>
             <td>
-              <a href="pages/lesson_14.html">Cours</a>
+              <Link href="pages/lesson_14">Cours</Link>
             </td>
             <td>
             </td>
@@ -41,7 +41,7 @@ export default function Index() {
           <tr>
             <td className="text-end">13.</td>
             <td>
-              <a href="pages/lesson_13.html">Cours</a>
+              <Link href="pages/lesson_13">Cours</Link>
             </td>
             <td>
             </td>
@@ -49,7 +49,7 @@ export default function Index() {
           <tr>
             <td className="text-end">12.</td>
             <td>
-              <a href="pages/lesson_12.html">Cours</a>
+              <Link href="pages/lesson_12">Cours</Link>
             </td>
             <td>
               conjecture, condition, potentiel, forme en -ようと思う
@@ -58,7 +58,7 @@ export default function Index() {
           <tr>
             <td className="text-end">11.</td>
             <td>
-              <a href="pages/lesson_11.html">Cours</a>
+              <Link href="pages/lesson_11">Cours</Link>
             </td>
             <td>
               formes en -ても, -てみる, -て+あげる/くれる/もらう, -たら, -かもしれない
@@ -67,7 +67,7 @@ export default function Index() {
           <tr>
             <td className="text-end">10.</td>
             <td>
-              <a href="pages/lesson_10.html">Cours</a>
+              <Link href="pages/lesson_10">Cours</Link>
             </td>
             <td>
               forme en -てある, と de citation
@@ -76,7 +76,7 @@ export default function Index() {
           <tr>
             <td className="text-end">9.</td>
             <td>
-              <a href="pages/lesson_09.html">Cours</a>
+              <Link href="pages/lesson_09">Cours</Link>
             </td>
             <td>
               recommendation, particules より, よ, から, が, の
@@ -85,7 +85,7 @@ export default function Index() {
           <tr>
             <td className="text-end">8.</td>
             <td>
-              <a href="pages/lesson_08.html">Cours</a>
+              <Link href="pages/lesson_08">Cours</Link>
             </td>
             <td>
               nominalisation, subordonnée relative, formes en -すぎる, -てしまう, particules
@@ -94,7 +94,7 @@ export default function Index() {
           <tr>
             <td className="text-end">7.</td>
             <td>
-              <a href="pages/lesson_07.html">Cours</a>
+              <Link href="pages/lesson_07">Cours</Link>
             </td>
             <td>
               particule が, adjectifs, jours & mois
@@ -103,7 +103,7 @@ export default function Index() {
           <tr>
             <td className="text-end">6.</td>
             <td>
-              <a href="pages/lesson_06.html">Cours</a>
+              <Link href="pages/lesson_06">Cours</Link>
             </td>
             <td>
               nombres, compteurs, heure
@@ -112,7 +112,7 @@ export default function Index() {
           <tr>
             <td className="text-end">5.</td>
             <td>
-              <a href="pages/lesson_05.html">Cours</a>
+              <Link href="pages/lesson_05">Cours</Link>
             </td>
             <td>
               Kanjis
@@ -121,8 +121,8 @@ export default function Index() {
           <tr>
             <td className="text-end">4.</td>
             <td>
-              <a href="pages/lesson_04.html">Cours</a>{' '}
-              | <a href="pages/exercises_04.html">Exos</a>
+              <Link href="pages/lesson_04">Cours</Link>{' '}
+              | <Link href="pages/exercises_04">Exos</Link>
             </td>
             <td>
               verbes, formes en -て, particules を, と, で, に & ね
@@ -131,9 +131,9 @@ export default function Index() {
           <tr>
             <td className="text-end">3.</td>
             <td>
-              <a href="pages/lesson_03.html">Cours</a>{' '}
-              | <a href="pages/vocab_03.html" target="_blank">Vocab</a>{' '}
-              | <a href="pages/exercises_03.html">Exos</a>
+              <Link href="pages/lesson_03">Cours</Link>{' '}
+              | <Link href="pages/vocab_03" target="_blank">Vocab</Link>{' '}
+              | <Link href="pages/exercises_03">Exos</Link>
             </td>
             <td>
               Katakanas, questions, démonstratifs
@@ -142,9 +142,9 @@ export default function Index() {
           <tr>
             <td className="text-end">2.</td>
             <td>
-              <a href="pages/lesson_02.html">Cours</a>{' '}
-              | <a href="pages/vocab_02.html" target="_blank">Vocab</a>{' '}
-              | <a href="pages/exercises_02">Exos</a>
+              <Link href="pages/lesson_02">Cours</Link>{' '}
+              | <Link href="pages/vocab_02" target="_blank">Vocab</Link>{' '}
+              | <Link href="pages/exercises_02">Exos</Link>
             </td>
             <td>
               phrases simples, particules は, の & も, présentation, suffixes honorifiques
@@ -153,7 +153,7 @@ export default function Index() {
           <tr>
             <td className="text-end">1.</td>
             <td>
-              <a href="pages/lesson_01">Cours</a>{' '}
+              <Link href="pages/lesson_01">Cours</Link>{' '}
               | <Link href="pages/exercises_01">Exos</Link>
             </td>
             <td>

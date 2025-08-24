@@ -1,7 +1,7 @@
-import FuriganasSwitch from '@/app/pages/FuriganasSwitch';
-import GoBackToIndex from '@/app/pages/GoBackToIndex';
-import ScrollTopLink from '@/app/pages/ScrollTopLink';
-import TableOfContent from '@/app/pages/TableOfContent';
+import FuriganasSwitch from '@/app/pages/_components/FuriganasSwitch';
+import GoBackToIndex from '@/app/pages/_components/GoBackToIndex';
+import ScrollTopLink from '@/app/pages/_components/ScrollTopLink';
+import TableOfContent from '@/app/pages/_components/TableOfContent';
 
 export default function TocAndLinks({ furiganas, children }) {
   return (
