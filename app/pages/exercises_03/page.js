@@ -6,7 +6,7 @@ export const metadata = {
   title: "Exercices 3",
 };
 
-export default function Exercises01() {
+export default function Exercises03() {
   return (
     <div className="container py-2 aij-layout">
       <Intro>

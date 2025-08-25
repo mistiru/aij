@@ -2,7 +2,7 @@ export const metadata = {
   title: "Vocabulaire 3",
 };
 
-export default function Exercises01() {
+export default function Vocab03() {
   return (
     <div className="container-xxl py-2">
       <h3 className="text-center">Vocabulaire 3 − 単語3</h3>
