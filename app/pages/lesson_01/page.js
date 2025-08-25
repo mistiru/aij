@@ -49,7 +49,7 @@ export default function Lesson01() {
                   <th scope="col">o</th>
                 </tr>
                 </thead>
-                <tbody>
+                <tbody className="table-group-divider">
                 <tr>
                   <th scope="row"></th>
                   <td>あ</td>
@@ -157,7 +157,7 @@ export default function Lesson01() {
                   <th scope="col">o</th>
                 </tr>
                 </thead>
-                <tbody>
+                <tbody className="table-group-divider">
                 <tr>
                   <th scope="row"></th>
                   <td>ア</td>
@@ -416,7 +416,7 @@ export default function Lesson01() {
                   <th scope="col" colSpan="2">Écritures d’imprimerie</th>
                 </tr>
                 </thead>
-                <tbody>
+                <tbody className="table-group-divider">
                 <tr>
                   <td className="border-end">
                     <img className="kana-img" src="/img/hiraganas/hand-ki.png" alt="hand-ki"/>
@@ -651,7 +651,7 @@ export default function Lesson01() {
                   <th scope="col">o</th>
                 </tr>
                 </thead>
-                <tbody>
+                <tbody className="table-group-divider">
                 <tr>
                   <th scope="row">
                     <span className="notion">k</span> → <span className="notion">g</span>

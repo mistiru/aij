@@ -21,7 +21,7 @@ export default function Index() {
             <th className="text-nowrap">Points abordés</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody className="table-group-divider">
           <tr>
             <td className="text-end">15.</td>
             <td>
@@ -182,7 +182,7 @@ export default function Index() {
             <th scope="col">Descriptif</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody className="table-group-divider">
           <tr>
             <td>
               <a target="_blank"

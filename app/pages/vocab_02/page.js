@@ -18,7 +18,7 @@ export default function Exercises01() {
             <th scope="col" style={{ width: '33%' }}>Français</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody className="table-group-divider">
           <tr>
             <td><strong>自己紹介</strong>【じこしょうかい】</td>
             <td>jikoshoukai</td>
@@ -69,7 +69,7 @@ export default function Exercises01() {
             <th scope="col" style={{ width: '33%' }}>Français</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody className="table-group-divider">
           <tr>
             <td><strong>犬</strong>【いぬ】</td>
             <td>inu</td>
@@ -120,7 +120,7 @@ export default function Exercises01() {
             <th scope="col" style={{ width: '33%' }}>Français</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody className="table-group-divider">
           <tr>
             <td><strong>好き</strong>【すき】</td>
             <td>suki</td>
@@ -151,7 +151,7 @@ export default function Exercises01() {
             <th scope="col" style={{ width: '33%' }}>Français</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody className="table-group-divider">
           <tr>
             <td><strong>フランス</strong>【ふらんす】</td>
             <td>furansu</td>
@@ -182,7 +182,7 @@ export default function Exercises01() {
             <th scope="col" style={{ width: '33%' }}>Français</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody className="table-group-divider">
           <tr>
             <td><strong>学生</strong>【がくせい】</td>
             <td>gakusei</td>
@@ -228,7 +228,7 @@ export default function Exercises01() {
             <th scope="col" style={{ width: '33%' }}>Français</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody className="table-group-divider">
           <tr>
             <td><strong>フランス人</strong>【ふらんすじん】</td>
             <td>furansujin</td>

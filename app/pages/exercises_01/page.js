@@ -38,7 +38,7 @@ export default function Exercises01() {
               <th>Romajis</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody className="table-group-divider">
             <tr>
               <td>うま</td>
               <td><span className="answer">uma</span></td>
@@ -121,7 +121,7 @@ export default function Exercises01() {
               <th>ひらがな</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody className="table-group-divider">
             <tr>
               <td>inu</td>
               <td><span className="answer">いぬ</span></td>

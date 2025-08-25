@@ -42,7 +42,7 @@ export default function Exercises01() {
               <th scope="col">Romajis</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody className="table-group-divider">
             <tr>
               <td>18歳</td>
               <td>じゅうはっさい</td>
@@ -86,7 +86,7 @@ export default function Exercises01() {
               <th>Français</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody className="table-group-divider">
             <tr>
               <td className="japanese easy">
                 <div>
@@ -155,7 +155,7 @@ export default function Exercises01() {
               <th>Japonais</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody className="table-group-divider">
             <tr>
               <td>Je n’aime pas les animes.</td>
               <td className="japanese easy">

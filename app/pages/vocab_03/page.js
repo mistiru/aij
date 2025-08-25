@@ -18,7 +18,7 @@ export default function Exercises01() {
             <th scope="col" style={{ width: '33%' }}>Français</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody className="table-group-divider">
           <tr>
             <td><strong>出会い</strong>【であい】</td>
             <td>deai</td>
@@ -69,7 +69,7 @@ export default function Exercises01() {
             <th scope="col" style={{ width: '33%' }}>Français</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody className="table-group-divider">
           <tr>
             <td><strong>子</strong>【こ】</td>
             <td>ko</td>
@@ -115,7 +115,7 @@ export default function Exercises01() {
             <th scope="col" style={{ width: '33%' }}>Français</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody className="table-group-divider">
           <tr>
             <td><strong>本</strong>【ほん】</td>
             <td>hon</td>
@@ -156,7 +156,7 @@ export default function Exercises01() {
             <th scope="col" style={{ width: '33%' }}>Français</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody className="table-group-divider">
           <tr>
             <td><strong>もしかして</strong></td>
             <td>moshikashite</td>

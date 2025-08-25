@@ -38,7 +38,7 @@ export default function Exercises01() {
               <th>Romajis</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody className="table-group-divider">
             <tr>
               <td>アルバイト</td>
               <td><span className="answer">arubaito</span></td>
@@ -97,7 +97,7 @@ export default function Exercises01() {
               <th>カタカナ</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody className="table-group-divider">
             <tr>
               <td>ibento</td>
               <td><span className="answer">イベント</span></td>
@@ -156,7 +156,7 @@ export default function Exercises01() {
               <th>Japonais</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody className="table-group-divider">
             <tr>
               <td>Lequel est le gâteau à la fraise ?</td>
               <td className="japanese easy">
