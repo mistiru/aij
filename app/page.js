@@ -25,6 +25,15 @@ export default function Index() {
           <tr>
             <td className="text-end">15.</td>
             <td>
+              <Link href="pages/story_01">Compte</Link>
+            </td>
+            <td>
+              おむすびころりん
+            </td>
+          </tr>
+          <tr>
+            <td className="text-end">15.</td>
+            <td>
             </td>
             <td>
               Forme passive
