@@ -5,7 +5,13 @@ import { faRotate } from '@fortawesome/free-solid-svg-icons';
 
 export default function ReloadButton() {
   return (
-    <a className="fs-5 align-middle text-muted" onClick={() => location.reload()}
+    <a
+      href="#"
+      className="fs-5 align-middle text-muted"
+      onClick={event => {
+        event.preventDefault();
+        location.reload();
+      }}
     ><FontAwesomeIcon icon={faRotate} /></a>
   );
 }
