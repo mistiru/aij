@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function Lesson01() {
   return (
-    <div className="container py-2 aij-layout">
+    <div className="container-xl py-2 aij-layout">
       <Intro>
         <h1 className="mb-3">Cours n˚1 − 第一課</h1>
       </Intro>

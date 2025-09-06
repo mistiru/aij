@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function Story01() {
   return (
-    <div className="container py-2 aij-layout">
+    <div className="container-xl py-2 aij-layout">
       <Intro>
         <h1 className="mb-3">Conte n˚1 − 第1の物語</h1>
       </Intro>
