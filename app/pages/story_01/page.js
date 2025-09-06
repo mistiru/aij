@@ -2,14 +2,14 @@ import Intro from '@/app/pages/_components/Intro';
 import TocAndLinks from '@/app/pages/_components/TocAndLinks';
 
 export const metadata = {
-  title: "Compte n°1",
+  title: "Conte n°1",
 };
 
 export default function Story01() {
   return (
     <div className="container py-2 aij-layout">
       <Intro>
-        <h1 className="mb-3">Compte n˚1 − 第1の物語</h1>
+        <h1 className="mb-3">Conte n˚1 − 第1の物語</h1>
       </Intro>
 
       <TocAndLinks furiganas/>

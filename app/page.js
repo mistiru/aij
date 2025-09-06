@@ -25,7 +25,7 @@ export default function Index() {
           <tr>
             <td className="text-end">15.</td>
             <td>
-              <Link href="pages/story_01">Compte</Link>
+              <Link href="pages/story_01">Conte</Link>
             </td>
             <td>
               おむすびころりん
