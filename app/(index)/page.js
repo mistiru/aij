@@ -1,4 +1,5 @@
 import './page.css';
+import ExternalLink from '@/components/ExternalLink';
 
 import Link from 'next/link';
 import ReloadButton from './_components/ReloadButton';
@@ -194,11 +195,15 @@ export default function Index() {
           <tbody className="table-group-divider">
           <tr>
             <td>
-              <a target="_blank"
-                 href="https://play.google.com/store/apps/details?id=com.craxic.akebifree">Akebi</a>
+              <ExternalLink
+                 href="https://play.google.com/store/apps/details?id=com.craxic.akebifree"
+                 noIcon
+              >Akebi</ExternalLink>
               {' '}|{' '}
-              <a target="_blank"
-                 href="https://apps.apple.com/fr/app/shirabe-jisho/id1005203380">Shirabe Jisho</a>
+              <ExternalLink
+                 href="https://apps.apple.com/fr/app/shirabe-jisho/id1005203380"
+                 noIcon
+              >Shirabe Jisho</ExternalLink>
             </td>
             <td>
               Probablement la meilleure application de dictionnaire japonais pour Android / et pour iOS.
@@ -206,7 +211,10 @@ export default function Index() {
           </tr>
           <tr>
             <td>
-              <a target="_blank" href="https://fr.wikipedia.org/wiki/%E3%81%82">Hiraganas / Katakanas</a>
+              <ExternalLink
+                href="https://fr.wikipedia.org/wiki/%E3%81%82"
+                noIcon
+              >Hiraganas / Katakanas</ExternalLink>
             </td>
             <td>
               Page Wikipédia dédiée aux Kanas (navigation par le tableau à droite de la page).
@@ -214,7 +222,10 @@ export default function Index() {
           </tr>
           <tr>
             <td>
-              <a target="_blank" href="https://apps.ankiweb.net/">AnkiWeb</a>
+              <ExternalLink
+                href="https://apps.ankiweb.net/"
+                noIcon
+              >AnkiWeb</ExternalLink>
             </td>
             <td>
               Logiciel de FlashCards (cartes à mémoriser) permettant de facilement retenir tout et n’importe quoi
@@ -223,8 +234,10 @@ export default function Index() {
           </tr>
           <tr>
             <td>
-              <a target="_blank"
-                 href="https://play.google.com/store/apps/details?id=com.Obenkyo">Obenkyo</a>
+              <ExternalLink
+                 href="https://play.google.com/store/apps/details?id=com.Obenkyo"
+                 noIcon
+              >Obenkyo</ExternalLink>
             </td>
             <td>
               Une bonne application pour apprendre le japonais (Kanjis et grammaire) pour Android.
@@ -232,12 +245,15 @@ export default function Index() {
           </tr>
           <tr>
             <td>
-              <a target="_blank"
-                 href="https://addons.mozilla.org/fr/firefox/addon/jisho-search-plugin/">Jisho pour Firefox</a>
+              <ExternalLink
+                href="https://addons.mozilla.org/fr/firefox/addon/jisho-search-plugin/"
+                noIcon
+              >Jisho pour Firefox</ExternalLink>
               {' '}|{' '}
-              <a target="_blank"
-                 href="https://chrome.google.com/webstore/detail/jisho-extension/iblocgbegbfbikfpjajboohgnegaonho">Jisho
-                pour Chrome</a>
+              <ExternalLink
+                 href="https://chrome.google.com/webstore/detail/jisho-extension/iblocgbegbfbikfpjajboohgnegaonho"
+                 noIcon
+              >Jisho pour Chrome</ExternalLink>
             </td>
             <td>
               Extension de navigateur permettant de rechercher dans Jisho le texte sélectionné à l’aide d’un

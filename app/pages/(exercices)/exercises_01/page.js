@@ -1,4 +1,4 @@
-import ExternalLink from '@/app/pages/_components/ExternalLink';
+import ExternalLink from '@/components/ExternalLink';
 import Intro from '@/app/pages/_components/Intro';
 import TocAndLinks from '@/app/pages/_components/TocAndLinks';
 
