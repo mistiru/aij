@@ -42,7 +42,7 @@ export default function Index() {
           <tr>
             <td className="text-end">14.</td>
             <td>
-              <Link href="pages/lesson_14">Cours</Link>
+              <Link href="pages/lesson_14.html">Cours</Link>
             </td>
             <td>
             </td>
@@ -50,7 +50,7 @@ export default function Index() {
           <tr>
             <td className="text-end">13.</td>
             <td>
-              <Link href="pages/lesson_13">Cours</Link>
+              <Link href="pages/lesson_13.html">Cours</Link>
             </td>
             <td>
             </td>
@@ -58,7 +58,7 @@ export default function Index() {
           <tr>
             <td className="text-end">12.</td>
             <td>
-              <Link href="pages/lesson_12">Cours</Link>
+              <Link href="pages/lesson_12.html">Cours</Link>
             </td>
             <td>
               conjecture, condition, potentiel, forme en -ようと思う
@@ -67,7 +67,7 @@ export default function Index() {
           <tr>
             <td className="text-end">11.</td>
             <td>
-              <Link href="pages/lesson_11">Cours</Link>
+              <Link href="pages/lesson_11.html">Cours</Link>
             </td>
             <td>
               formes en -ても, -てみる, -て+あげる/くれる/もらう, -たら, -かもしれない
@@ -76,7 +76,7 @@ export default function Index() {
           <tr>
             <td className="text-end">10.</td>
             <td>
-              <Link href="pages/lesson_10">Cours</Link>
+              <Link href="pages/lesson_10.html">Cours</Link>
             </td>
             <td>
               forme en -てある, と de citation
@@ -85,7 +85,7 @@ export default function Index() {
           <tr>
             <td className="text-end">9.</td>
             <td>
-              <Link href="pages/lesson_09">Cours</Link>
+              <Link href="pages/lesson_09.html">Cours</Link>
             </td>
             <td>
               recommendation, particules より, よ, から, が, の
@@ -94,7 +94,7 @@ export default function Index() {
           <tr>
             <td className="text-end">8.</td>
             <td>
-              <Link href="pages/lesson_08">Cours</Link>
+              <Link href="pages/lesson_08.html">Cours</Link>
             </td>
             <td>
               nominalisation, subordonnée relative, formes en -すぎる, -てしまう, particules
@@ -103,7 +103,7 @@ export default function Index() {
           <tr>
             <td className="text-end">7.</td>
             <td>
-              <Link href="pages/lesson_07">Cours</Link>
+              <Link href="pages/lesson_07.html">Cours</Link>
             </td>
             <td>
               particule が, adjectifs, jours & mois
@@ -112,7 +112,7 @@ export default function Index() {
           <tr>
             <td className="text-end">6.</td>
             <td>
-              <Link href="pages/lesson_06">Cours</Link>
+              <Link href="pages/lesson_06.html">Cours</Link>
             </td>
             <td>
               nombres, compteurs, heure
@@ -121,7 +121,7 @@ export default function Index() {
           <tr>
             <td className="text-end">5.</td>
             <td>
-              <Link href="pages/lesson_05">Cours</Link>
+              <Link href="pages/lesson_05.html">Cours</Link>
             </td>
             <td>
               Kanjis
@@ -130,7 +130,7 @@ export default function Index() {
           <tr>
             <td className="text-end">4.</td>
             <td>
-              <Link href="pages/lesson_04">Cours</Link>{' '}
+              <Link href="pages/lesson_04.html">Cours</Link>{' '}
               | <Link href="pages/exercises_04">Exos</Link>
             </td>
             <td>

@@ -1,0 +1,230 @@
+html {
+    font-size: 1.3rem;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.japanese {
+    line-height: 2;
+}
+
+table .japanese, .japanese.easy {
+    line-height: 2.5;
+}
+
+.japanese.easy {
+    letter-spacing: .025rem;
+}
+
+.target-text > :not(ul),
+.japanese li > div,
+.clause {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.target-text.easy > :not(ul) > *,
+.japanese.easy p > div.clause > *,
+.japanese.easy p > *,
+.japanese.easy li div.clause > *,
+.japanese.easy li *,
+td.japanese.easy > div > div.clause > *,
+td.japanese.easy > div > * {
+    white-space: nowrap;
+}
+
+.target-text.easy > :not(ul) > *,
+.japanese.easy p > div.clause > *:not(:last-child),
+.japanese.easy p > *:not(:last-child),
+.japanese.easy li div.clause > *:not(:last-child),
+.japanese.easy li *:not(:last-child),
+td.japanese.easy > div > div.clause > *:not(:last-child),
+td.japanese.easy > div > *:not(:last-child) {
+    padding-right: .5rem;
+}
+
+ruby {
+    ruby-align: center;
+}
+
+rt {
+    font-size: 60%;
+    ruby-align: center;
+    opacity: 0;
+    transition: opacity 0.2s ease 0s;
+}
+
+body:not(.show-furiganas) ruby:hover rt {
+    transition-delay: 0.5s;
+}
+
+body.show-furiganas rt, ruby:hover rt {
+    opacity: 1;
+}
+
+td.japanese > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.text-center td.japanese > div {
+    justify-content: center;
+}
+
+.person, .adv {
+    color: #35a16b;
+    font-weight: 600;
+}
+
+.place, .adj {
+    color: #ff7f00;
+    font-weight: 600;
+}
+
+.orga, .noun, .pronoun {
+    color: #0041cc;
+    font-weight: 600;
+}
+
+.verb, .stem {
+    color: #8a2be2;
+    font-weight: 600;
+}
+
+.notion, .part, .form {
+    color: #ea644a;
+    font-weight: 600;
+}
+
+.expr, .ono {
+    color: #fcb414;
+    font-weight: 600;
+}
+
+.note {
+    background-color: #fff9ec;
+    border-left: solid #fcb414 5px;
+    border-radius: 5px;
+    padding: 0.5rem 1.1rem 0.5rem 1rem;
+}
+
+div.note {
+    margin-bottom: 1rem;
+}
+
+div.note > *:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title-anchor {
+    padding-left: 0.375rem;
+    font-weight: 400;
+    transition: color 0.15s ease-in-out;
+    opacity: 0;
+}
+
+:hover > .title-anchor {
+    opacity: 1;
+}
+
+.toc-title {
+    color: #555;
+    padding-bottom: 0.2rem;
+    border-bottom: solid lightgray 1px;
+    margin-bottom: 0.2rem;
+}
+
+.toc-col hr {
+    background-color: gray;
+}
+
+.toc-col a {
+    color: dimgray;
+}
+
+.toc-col a:hover {
+    text-decoration: underline;
+}
+
+#table-of-content {
+    padding-left: 0;
+    line-height: 1.1rem;
+}
+
+#table-of-content ul {
+    padding-left: 0.5rem;
+}
+
+#table-of-content li::marker {
+    content: '';
+}
+
+@media (min-width: 1200px) {
+    .toc-col {
+        font-size: 0.75rem;
+    }
+
+    .aij-layout {
+        display: grid;
+        grid-template-areas: 'intro toc' 'content toc';
+        grid-template-columns: 5fr 1fr;
+        grid-template-rows: auto 1fr;
+        grid-column-gap: 1.5rem;
+    }
+
+    .aij-intro {
+        grid-area: intro;
+    }
+
+    .aij-toc {
+        grid-area: toc;
+    }
+
+    .aij-content {
+        grid-area: content;
+    }
+}
+
+.auto-cell {
+    white-space: nowrap;
+    width: 1px;
+}
+
+.answer {
+    display: block;
+    text-align: center;
+    padding: 0 2rem;
+    border-radius: 0.5rem;
+    user-select: none;
+    color: black;
+    background-color: black;
+    transition: color 0.2s ease 0s, background-color 0.2s ease 0s;
+}
+
+.answer:hover {
+    color: unset;
+    background-color: unset;
+    transition-delay: 0.2s;
+}
+
+div.clause {
+    position: relative;
+}
+
+div.clause::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: .5rem;
+    bottom: .6rem;
+    border-top: solid 1px;
+}
