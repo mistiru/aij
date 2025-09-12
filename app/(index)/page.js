@@ -177,7 +177,7 @@ export default function Index() {
 
       <ul>
         <li>
-          <Link target="_blank" href="annex/kanas">Tableaux des Hiraganas et Katakanas</Link>
+          <Link target="_blank" href="/annex/kanas">Tableaux des Hiraganas et Katakanas</Link>
         </li>
       </ul>
 
