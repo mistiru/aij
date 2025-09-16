@@ -2,6 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "timezone": "Europe/Paris",
+  "lockFileMaintenance": {
+    "enabledManagers": ["npm"],
+    "enabled": true,
+    "groupName": "constraints-safe",
+    "labels": ["contraints-safe"],
+    "automerge": true
+  },
   "packageRules": [
     {
       "matchManagers": ["npm"],
