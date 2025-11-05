@@ -21,4 +21,6 @@ jobs:
         run: pnpm install
 
       - name: Run checks and tests
-        run: pnpm build
+        run: |
+          pnpm install --resolution-only --strict-peer-dependencies --prefer-frozen-lockfile
+          pnpm build
