@@ -5,4 +5,4 @@ ignoredBuiltDependencies:
   - '@fortawesome/free-solid-svg-icons'
   - sharp
 
-useNodeVersion: 22.17.1
+useNodeVersion: 24.10.0
