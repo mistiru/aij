@@ -9,7 +9,8 @@
     "enabled": true,
     "groupName": "constraints-safe",
     "labels": ["contraints-safe"],
-    "automerge": true
+    "automerge": true,
+    "minimumReleaseAgeBehaviour": "timestamp-optional"
   },
   "packageRules": [
     {
