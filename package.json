@@ -20,7 +20,7 @@
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },
-  "packageManager": "pnpm@11.8.0",
+  "packageManager": "pnpm@11.9.0",
   "devEngines": {
     "runtime": {
       "name": "node",
