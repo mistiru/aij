@@ -20,7 +20,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Check peer dependencies
+        run: pnpm peers check
+
       - name: Run checks and tests
         run: |
-          pnpm install --resolution-only --strict-peer-dependencies --prefer-frozen-lockfile
           pnpm build
