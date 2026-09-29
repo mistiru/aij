@@ -20,7 +20,7 @@
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   },
-  "packageManager": "pnpm@12.6.0",
+  "packageManager": "pnpm@12.8.1",
   "devEngines": {
     "runtime": {
       "name": "node",
