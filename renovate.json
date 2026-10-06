@@ -7,8 +7,9 @@
   "lockFileMaintenance": {
     "enabledManagers": ["npm"],
     "enabled": true,
+    "schedule": ["after 9am and before 12am on saturday"],
     "groupName": "constraints-safe",
-    "labels": ["contraints-safe"],
+    "labels": ["constraints-safe"],
     "automerge": true,
     "minimumReleaseAgeBehaviour": "timestamp-optional"
   },
@@ -19,12 +20,18 @@
     },
     {
       "matchManagers": ["npm"],
+      "matchDepTypes": ["peerDependencies"],
+      "rangeStrategy": "widen"
+    },
+    {
+      "matchManagers": ["npm"],
       "matchPackageNames": [
         "next"
       ],
       "matchUpdateTypes": ["patch"],
+      "schedule": ["after 9am and before 12am on saturday"],
       "groupName": "constraints-safe",
-      "labels": ["contraints-safe"],
+      "labels": ["constraints-safe"],
       "automerge": true
     },
     {
@@ -42,9 +49,22 @@
         "react-dom"
       ],
       "matchUpdateTypes": ["patch", "minor"],
+      "schedule": ["after 9am and before 12am on saturday"],
       "groupName": "constraints-safe",
-      "labels": ["contraints-safe"],
+      "labels": ["constraints-safe"],
       "automerge": true
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["renovatebot/github-action"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["docker-compose", "npm"],
+      "matchPackageNames": ["node"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "enabled": false
     }
   ]
 }
