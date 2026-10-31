@@ -681,14 +681,14 @@ packages:
       babel-plugin-macros:
         optional: true
 
-  tslib@2.8.1:
-    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+  tslib@2.9.1:
+    resolution: {integrity: sha512-a4Ux9VKuIMHsOS7ENbEq6hK2ZGYIT27Rtl0E4eD9KqwxhKiQeMZE/9xb3IdYwWaSOyIBQLExhQgXDTYoiCxnWA==}
 
 snapshots:
 
   '@emnapi/runtime@1.11.3':
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.9.1
     optional: true
 
   '@fortawesome/fontawesome-common-types@7.3.1': {}
@@ -851,7 +851,7 @@ snapshots:
 
   '@swc/helpers@0.5.23':
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.9.1
 
   baseline-browser-mapping@2.11.34: {}
 
@@ -955,4 +955,4 @@ snapshots:
       client-only: 0.0.1
       react: 19.3.1
 
-  tslib@2.8.1: {}
+  tslib@2.9.1: {}
